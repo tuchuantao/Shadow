@@ -4,7 +4,7 @@
 <br/>
 
 ### 实现的关键代码：
-<img src="./img/shadow_point.png" align=center height="318" width="600"><br/>
+<img src="./img/shadow_point.png" align=center height="424" width="800"><br/>
 其实就是给画笔设置阴影效果，然后绘制一个跟图片一样大的Bitmap
 
 参考了别人已经写好的[轮子](https://github.com/loopeer/shadow)，刚开始用的时候感觉还行，但是我一放到RecyclerView中时，滑动会有明显的卡顿，所以优化了一下
