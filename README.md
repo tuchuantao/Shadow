@@ -54,6 +54,15 @@ android:largeHeap="true" // 开启最大堆
 
 圆满完成，工作遇到的问题，记录下
 <br/>
+## 方案2 android:elevation + ViewOutlineProvider实现
+通过Outline.setAlpha()来改变阴影的透明度</br>
+<b>优点：</b></br>
+1、不需要自定义View</br>
+2、不用多绘制一层阴影</br>
+3、可以通过Outline设置圆角</br>
+<b>缺点：</b></br>
+1、无法指定阴影的颜色，因为android自带的阴影颜色是固定由黑渐变到白
+<br/>
 <br/>
 <br/>
 

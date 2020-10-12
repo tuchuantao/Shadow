@@ -28,8 +28,6 @@ android {
 }
 
 dependencies {
-    // databinding
-    kapt "androidx.databinding:databinding-compiler:3.2.1"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "androidx.appcompat:appcompat:${versions.androidx.appcompat}"
